@@ -4,7 +4,8 @@ import { UpdateCatDto } from './dto/update-cat.dto';
 
 @Injectable()
 export class CatsService {
-  create(createCatDto: CreateCatDto) {
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  create(_createCatDto: CreateCatDto) {
     return 'This action adds a new cat';
   }
 
@@ -16,7 +17,8 @@ export class CatsService {
     return `This action returns a #${id} cat`;
   }
 
-  update(id: number, updateCatDto: UpdateCatDto) {
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  update(id: number, _updateCatDto: UpdateCatDto) {
     return `This action updates a #${id} cat`;
   }
 
