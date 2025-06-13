@@ -1,0 +1,23 @@
+###
+###
+POST http://localhost:3000/cats
+Content-Type: application/json
+
+{
+  "name": "Things Fall Apart",
+  "age": 7,
+  "breed" : "bulldog"
+}
+###
+PUT http://localhost:3000/cats
+Content-Type: application/json
+
+{
+  "title": "Things Fall Apart by Chinua Achebes"
+}
+
+###
+DELETE http://localhost:3000/cats/1
+
+###
+GET http://localhost:3000/cats
