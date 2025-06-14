@@ -1,0 +1,26 @@
+###
+###
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+  "name": "Things Fall part",
+  "email":" otwante@gmail.com",
+  "password" : "bulldog13342"
+}
+###
+PUT  http://localhost:3000/users/5
+Content-Type: application/json
+
+{
+  "name": "Things Fall Apart"
+}
+
+###
+DELETE http://localhost:3000/users/2
+
+###
+GET http://localhost:3000/users
+
+###
+GET http://localhost:3000/users
